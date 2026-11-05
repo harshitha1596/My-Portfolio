@@ -14,11 +14,9 @@
         content="Python Full Stack Developer, Python Developer, Django Developer, React Developer, Django REST Framework, PostgreSQL, SQL, REST API, JavaScript, Bangalore">
 
     <meta name="author" content="Harshitha M">
-
-    <meta name="theme-color" content="#0f172a">
+    <meta name="theme-color" content="#111827">
 
     <link rel="stylesheet" href="style.css">
-
     <link rel="icon" href="images/favicon.png">
 
     <link rel="stylesheet"
@@ -28,36 +26,76 @@
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- ================= NAVIGATION ================= -->
+
+<nav class="navbar">
+
+    <a href="#home" class="nav-logo">Harshitha<span>.</span></a>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
 
 <header id="home">
 
-    <h1>Harshitha M</h1>
+    <div class="hero-content">
 
-    <p>
-        Python Full Stack Developer |
-        Django |
-        React.js |
-        SQL |
-        Bangalore
-    </p>
+        <span class="hero-label">
+            Python Full Stack Developer
+        </span>
 
-    <div class="cta-buttons">
+        <h1>Hello, I'm <span>Harshitha M</span></h1>
 
-        <a href="#contact">
-            Hire Me
-        </a>
+        <p>
+            Building responsive web experiences and full-stack applications
+            with modern frontend and backend technologies.
+        </p>
 
-        <a href="resume/Harshitha_M_Python_Full_Stack_Developer_Resume.pdf"
-           download>
-            Download Resume
-        </a>
+        <p class="hero-subtitle">
+            5 Years of Web Development Experience | Bangalore, India
+        </p>
 
-        <a href="https://github.com/harshithamraj1596"
-           target="_blank"
-           rel="noopener noreferrer">
-            GitHub
-        </a>
+        <div class="hero-tags">
+            <span>Python</span>
+            <span>Django</span>
+            <span>React.js</span>
+            <span>REST APIs</span>
+            <span>PostgreSQL</span>
+        </div>
+
+        <div class="cta-buttons">
+
+            <a href="#contact">
+                <i class="fa-solid fa-paper-plane"></i>
+                Hire Me
+            </a>
+
+            <a class="secondary"
+               href="resume/Harshitha_M_Python_Full_Stack_Developer_Resume.pdf"
+               download>
+                <i class="fa-solid fa-download"></i>
+                Download Resume
+            </a>
+
+            <a class="secondary"
+               href="https://github.com/harshithamraj1596"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
 
     </div>
 
@@ -68,33 +106,60 @@
 
 <section id="about">
 
-    <h2>
-        <i class="fa-solid fa-user"></i>
-        About Me
-    </h2>
+    <div class="section-heading">
+        <span class="section-kicker">Get to know me</span>
+        <h2>
+            <i class="fa-solid fa-user"></i>
+            About Me
+        </h2>
+    </div>
 
-    <p>
+    <div class="about-content">
 
-        Python Full Stack Developer with 5 years of professional experience
-        in web development, frontend engineering, responsive UI development,
-        and backend integration.
+        <p>
+            Python Full Stack Developer with 5 years of professional
+            experience in web development, frontend engineering,
+            responsive UI development, and backend integration.
 
-        Experienced in HTML5, CSS3, JavaScript, React.js, Bootstrap,
-        WordPress, and REST API integration, with practical full-stack
-        development experience using Python, Django,
-        Django REST Framework, and PostgreSQL.
+            Experienced in HTML5, CSS3, JavaScript, React.js, Bootstrap,
+            WordPress, and REST API integration, with practical full-stack
+            development experience using Python, Django,
+            Django REST Framework, and PostgreSQL.
 
-        Skilled in developing web applications, building REST APIs,
-        integrating databases, implementing role-based access,
-        debugging, and application deployment.
+            Skilled in developing web applications, building REST APIs,
+            integrating databases, implementing role-based access,
+            debugging, and application deployment.
 
-        Experienced in developing and maintaining responsive websites
-        across healthcare, education, e-commerce, NGO, and corporate
-        domains.
+            Experienced in developing and maintaining responsive websites
+            across healthcare, education, e-commerce, NGO, and corporate
+            domains.
 
-        Familiar with Git, GitHub, SQL, and Agile development practices.
+            Familiar with Git, GitHub, SQL, and Agile development practices.
+        </p>
 
-    </p>
+    </div>
+
+    <div class="about-highlight">
+
+        <div class="highlight-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <strong>5 Years</strong>
+            <span>Professional Experience</span>
+        </div>
+
+        <div class="highlight-card">
+            <i class="fa-solid fa-code"></i>
+            <strong>Full Stack</strong>
+            <span>Frontend & Backend</span>
+        </div>
+
+        <div class="highlight-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <strong>Bangalore</strong>
+            <span>Karnataka, India</span>
+        </div>
+
+    </div>
 
 </section>
 
@@ -103,83 +168,147 @@
 
 <section id="skills">
 
-    <h2>
-        <i class="fa-solid fa-code"></i>
-        Technical Skills
-    </h2>
+    <div class="section-heading">
+        <span class="section-kicker">What I work with</span>
+        <h2>
+            <i class="fa-solid fa-code"></i>
+            Technical Skills
+        </h2>
+    </div>
 
-    <ul>
+    <div class="skills-grid">
 
-        <li>
-            <strong>Programming Languages:</strong>
-            Python, JavaScript (ES6+), TypeScript, PHP, SQL
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-terminal"></i> Programming Languages</h3>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>JavaScript ES6+</span>
+                <span>TypeScript</span>
+                <span>PHP</span>
+                <span>SQL</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Backend Development:</strong>
-            Python, Django, Django REST Framework (DRF),
-            Node.js, Express.js, REST API Development,
-            REST API Integration, CRUD Operations,
-            Django ORM, Object-Oriented Programming (OOP),
-            Authentication and Authorization
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-server"></i> Backend Development</h3>
+            <div class="skill-tags">
+                <span>Django</span>
+                <span>Django REST Framework</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>REST APIs</span>
+                <span>CRUD Operations</span>
+                <span>Django ORM</span>
+                <span>OOP</span>
+                <span>Authentication</span>
+                <span>Authorization</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Frontend Development:</strong>
-            React.js, HTML5, CSS3, Bootstrap 5, jQuery,
-            Responsive Web Design, Flexbox, CSS Grid,
-            React Components, Props, State, React Hooks,
-            React Router DOM, Material UI
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-display"></i> Frontend Development</h3>
+            <div class="skill-tags">
+                <span>React.js</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Bootstrap 5</span>
+                <span>jQuery</span>
+                <span>Flexbox</span>
+                <span>CSS Grid</span>
+                <span>React Components</span>
+                <span>Props & State</span>
+                <span>React Hooks</span>
+                <span>React Router DOM</span>
+                <span>Material UI</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Databases:</strong>
-            MySQL, PostgreSQL, SQL, SQLite, MongoDB,
-            Database Design, CRUD Operations
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-database"></i> Databases</h3>
+            <div class="skill-tags">
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>SQLite</span>
+                <span>MongoDB</span>
+                <span>Database Design</span>
+                <span>CRUD Operations</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>API & Integration:</strong>
-            REST APIs, JSON, Fetch API, Axios,
-            HTTP Methods, HTTP Status Codes, CORS,
-            API Testing and Debugging, Postman
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-plug"></i> API & Integration</h3>
+            <div class="skill-tags">
+                <span>REST APIs</span>
+                <span>JSON</span>
+                <span>Fetch API</span>
+                <span>Axios</span>
+                <span>HTTP Methods</span>
+                <span>HTTP Status Codes</span>
+                <span>CORS</span>
+                <span>Postman</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Python Concepts:</strong>
-            Object-Oriented Programming, Functions,
-            Modules, Packages, Exception Handling,
-            File Handling
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-python"></i> Python Concepts</h3>
+            <div class="skill-tags">
+                <span>OOP</span>
+                <span>Functions</span>
+                <span>Modules</span>
+                <span>Packages</span>
+                <span>Exception Handling</span>
+                <span>File Handling</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Tools & Version Control:</strong>
-            Git, GitHub, Visual Studio Code, npm
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Version Control</h3>
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>npm</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Deployment & Hosting:</strong>
-            Vercel, Render, GitHub Pages, cPanel,
-            SSL Configuration, Website Migration,
-            Application Deployment and Hosting
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-cloud-arrow-up"></i> Deployment & Hosting</h3>
+            <div class="skill-tags">
+                <span>Vercel</span>
+                <span>Render</span>
+                <span>GitHub Pages</span>
+                <span>cPanel</span>
+                <span>SSL</span>
+                <span>Website Migration</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>CMS & E-Commerce:</strong>
-            WordPress, WooCommerce, Elementor,
-            WPBakery, Shopify
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-wordpress"></i> CMS & E-Commerce</h3>
+            <div class="skill-tags">
+                <span>WordPress</span>
+                <span>WooCommerce</span>
+                <span>Elementor</span>
+                <span>WPBakery</span>
+                <span>Shopify</span>
+            </div>
+        </div>
 
-        <li>
-            <strong>Development Practices:</strong>
-            Software Development Life Cycle (SDLC),
-            Agile Methodology, Scrum, Debugging,
-            Cross-Browser Compatibility,
-            Performance Optimization, SEO,
-            Team Collaboration
-        </li>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-people-group"></i> Development Practices</h3>
+            <div class="skill-tags">
+                <span>SDLC</span>
+                <span>Agile</span>
+                <span>Scrum</span>
+                <span>Debugging</span>
+                <span>Cross-Browser Testing</span>
+                <span>Performance Optimization</span>
+                <span>SEO</span>
+                <span>Team Collaboration</span>
+            </div>
+        </div>
 
-    </ul>
+    </div>
 
 </section>
 
@@ -188,118 +317,191 @@
 
 <section id="projects">
 
-    <h2>
-        <i class="fa-solid fa-laptop-code"></i>
-        Projects
-    </h2>
-
-    <p>
-        Full-stack development project demonstrating practical experience
-        with React.js, Python, Django, Django REST Framework,
-        PostgreSQL, API integration, and application deployment.
-    </p>
+    <div class="section-heading">
+        <span class="section-kicker">My recent work</span>
+        <h2>
+            <i class="fa-solid fa-laptop-code"></i>
+            Projects
+        </h2>
+        <p class="section-intro">
+            A selection of my full-stack development work and professional
+            website projects.
+        </p>
+    </div>
 
 
     <!-- EMPLOYEE MANAGEMENT PROJECT -->
 
-    <div class="project-card">
+    <div class="featured-project">
 
-        <h3>
-            EmployEase – Employee Management System
-        </h3>
+        <div class="featured-project-header">
 
-        <p>
-            <strong>
-                Full Stack Web Application
-            </strong>
-        </p>
+            <span class="project-label">
+                Featured Full Stack Project
+            </span>
 
-        <p>
-            React.js |
-            Python |
-            Django |
-            Django REST Framework |
-            PostgreSQL |
-            JavaScript |
-            HTML5 |
-            CSS3 |
-            Bootstrap
-        </p>
+            <h3>EmployEase – Employee Management System</h3>
 
-        <p>
+            <p>
+                A full-stack web application built using React.js and Django.
+            </p>
 
-            Developed a full-stack employee management application
-            using React.js and Django with separate HR administrator
-            and employee dashboards.
+        </div>
 
-        </p>
+        <div class="featured-project-body">
 
-        <ul>
+            <p class="project-description">
+                Developed a full-stack employee management application
+                using React.js and Django with separate HR administrator
+                and employee dashboards. The application supports employee
+                data management, REST API integration, role-based access
+                and responsive user interfaces.
+            </p>
 
-            <li>
-                Developed separate dashboards for HR administrators
-                and employees.
-            </li>
+            <!-- FOUR DUMMY SCREENSHOT IMAGES -->
 
-            <li>
-                Built backend REST APIs using Django REST Framework
-                and integrated them with the React frontend for
-                employee data management and CRUD operations.
-            </li>
+            <div class="project-gallery">
 
-            <li>
-                Integrated PostgreSQL database hosted on Neon
-                and implemented role-based access for HR and
-                employee functionalities.
-            </li>
+                <figure class="project-screenshot">
 
-            <li>
-                Developed responsive user interfaces using
-                React.js, JavaScript, HTML5, CSS3, and Bootstrap.
-            </li>
+                    <img src="images/projects/employease-dashboard.jpg"
+                         alt="EmployEase HR Admin Dashboard"
+                         loading="lazy">
 
-            <li>
-                Deployed the frontend on Vercel and backend
-                on Render.
-            </li>
+                    <figcaption>
+                        01. HR Admin Dashboard
+                    </figcaption>
 
-        </ul>
+                </figure>
 
-        <div class="cta-buttons">
+                <figure class="project-screenshot">
 
-            <a href="https://employ-ease-eosin.vercel.app/"
-               target="_blank"
-               rel="noopener noreferrer">
+                    <img src="images/projects/employease-employees.jpg"
+                         alt="EmployEase Employee Management Screen"
+                         loading="lazy">
 
-                <i class="fa-solid fa-globe"></i>
-                Live Demo
+                    <figcaption>
+                        02. Employee Management
+                    </figcaption>
 
-            </a>
+                </figure>
+
+                <figure class="project-screenshot">
+
+                    <img src="images/projects/employease-employee-dashboard.jpg"
+                         alt="EmployEase Employee Dashboard"
+                         loading="lazy">
+
+                    <figcaption>
+                        03. Employee Dashboard
+                    </figcaption>
+
+                </figure>
+
+                <figure class="project-screenshot">
+
+                    <img src="images/projects/employease-login.jpg"
+                         alt="EmployEase Login Screen"
+                         loading="lazy">
+
+                    <figcaption>
+                        04. Login & Authentication
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+            <h4>Technology Stack</h4>
+
+            <div class="tech-tags">
+                <span>React.js</span>
+                <span>Python</span>
+                <span>Django</span>
+                <span>Django REST Framework</span>
+                <span>PostgreSQL</span>
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Bootstrap</span>
+                <span>REST APIs</span>
+            </div>
+
+            <h4>Key Features & Implementation</h4>
+
+            <ul class="feature-list">
+
+                <li>
+                    Developed separate dashboards for HR administrators
+                    and employees.
+                </li>
+
+                <li>
+                    Built backend REST APIs using Django REST Framework
+                    and integrated them with the React frontend for
+                    employee data management and CRUD operations.
+                </li>
+
+                <li>
+                    Integrated PostgreSQL database hosted on Neon
+                    and implemented role-based access for HR and
+                    employee functionalities.
+                </li>
+
+                <li>
+                    Developed responsive user interfaces using React.js,
+                    JavaScript, HTML5, CSS3, and Bootstrap.
+                </li>
+
+                <li>
+                    Deployed the frontend on Vercel and backend on Render.
+                </li>
+
+            </ul>
+
+            <div class="project-actions">
+
+                <a href="https://employ-ease-eosin.vercel.app/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-solid fa-globe"></i>
+                    View Live Project
+
+                </a>
+
+                <a class="outline"
+                   href="https://github.com/harshithamraj1596"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub Profile
+
+                </a>
+
+            </div>
 
         </div>
 
     </div>
 
 
-    <!-- FRONTEND / WORDPRESS PROJECTS -->
+    <!-- CLIENT WEBSITE PROJECTS -->
 
-    <h3>
+    <h3 class="subsection-title">
         Client Website Projects
     </h3>
 
-    <p>
+    <p class="section-intro">
         Developed and maintained responsive websites across healthcare,
-        education, e-commerce, NGO, and corporate domains using
-        HTML5, CSS3, JavaScript, Bootstrap, jQuery, and WordPress.
+        education, e-commerce, NGO, and corporate domains using HTML5,
+        CSS3, JavaScript, Bootstrap, jQuery, and WordPress.
     </p>
 
     <div class="project-grid">
 
-
-        <!-- KM GASTRO -->
-
         <div class="project-card">
-
             <a href="https://kmgastro.in/"
                target="_blank"
                rel="noopener noreferrer">
@@ -308,19 +510,11 @@
                      alt="KM Gastro Hospital Website"
                      loading="lazy">
 
-                <h3>
-                    KM Gastro Hospital
-                </h3>
-
+                <h3>KM Gastro Hospital</h3>
             </a>
-
         </div>
 
-
-        <!-- KUSUMA HOSPITAL -->
-
         <div class="project-card">
-
             <a href="https://kusumahospital.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -329,19 +523,11 @@
                      alt="Kusuma Hospital Website"
                      loading="lazy">
 
-                <h3>
-                    Kusuma Hospital
-                </h3>
-
+                <h3>Kusuma Hospital</h3>
             </a>
-
         </div>
 
-
-        <!-- WOMENS CLINIC -->
-
         <div class="project-card">
-
             <a href="https://womensclinicbtm.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -350,19 +536,11 @@
                      alt="Women's Clinic BTM Website"
                      loading="lazy">
 
-                <h3>
-                    Women's Clinic BTM
-                </h3>
-
+                <h3>Women's Clinic BTM</h3>
             </a>
-
         </div>
 
-
-        <!-- YUVANAA -->
-
         <div class="project-card">
-
             <a href="https://yuvanaaskinclinic.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -371,19 +549,11 @@
                      alt="Yuvanaa Skin Clinic Website"
                      loading="lazy">
 
-                <h3>
-                    Yuvanaa Skin Clinic
-                </h3>
-
+                <h3>Yuvanaa Skin Clinic</h3>
             </a>
-
         </div>
 
-
-        <!-- AASARE -->
-
         <div class="project-card">
-
             <a href="https://aasareinn.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -392,19 +562,11 @@
                      alt="Aasare Inn Website"
                      loading="lazy">
 
-                <h3>
-                    Aasare Inn
-                </h3>
-
+                <h3>Aasare Inn</h3>
             </a>
-
         </div>
 
-
-        <!-- WINSON -->
-
         <div class="project-card">
-
             <a href="https://winsonelevators.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -413,19 +575,11 @@
                      alt="Winson Elevators Website"
                      loading="lazy">
 
-                <h3>
-                    Winson Elevators
-                </h3>
-
+                <h3>Winson Elevators</h3>
             </a>
-
         </div>
 
-
-        <!-- DIVINE -->
-
         <div class="project-card">
-
             <a href="https://divine22.in/"
                target="_blank"
                rel="noopener noreferrer">
@@ -434,19 +588,11 @@
                      alt="Divine 22 Industries Website"
                      loading="lazy">
 
-                <h3>
-                    Divine 22 Industries
-                </h3>
-
+                <h3>Divine 22 Industries</h3>
             </a>
-
         </div>
 
-
-        <!-- COLLEGES INFO -->
-
         <div class="project-card">
-
             <a href="https://collegesinfo.org/"
                target="_blank"
                rel="noopener noreferrer">
@@ -455,19 +601,11 @@
                      alt="Colleges Info Website"
                      loading="lazy">
 
-                <h3>
-                    Colleges Info
-                </h3>
-
+                <h3>Colleges Info</h3>
             </a>
-
         </div>
 
-
-        <!-- CLOUD VISIONERS -->
-
         <div class="project-card">
-
             <a href="https://cloudvisioners.com/"
                target="_blank"
                rel="noopener noreferrer">
@@ -476,12 +614,8 @@
                      alt="Cloud Visioners Website"
                      loading="lazy">
 
-                <h3>
-                    Cloud Visioners
-                </h3>
-
+                <h3>Cloud Visioners</h3>
             </a>
-
         </div>
 
     </div>
@@ -493,34 +627,26 @@
 
 <section id="experience">
 
-    <h2>
-        <i class="fa-solid fa-briefcase"></i>
-        Professional Experience
-    </h2>
+    <div class="section-heading">
+        <span class="section-kicker">My career journey</span>
+        <h2>
+            <i class="fa-solid fa-briefcase"></i>
+            Professional Experience
+        </h2>
+    </div>
 
 
     <!-- CENTURIAN -->
 
     <div class="job">
 
-        <h3>
-            Frontend Developer
-        </h3>
+        <h3>Frontend Developer</h3>
 
-        <p>
-            <strong>
-                Centurian Apps and Solutions
-            </strong>
-        </p>
+        <p><strong>Centurian Apps and Solutions</strong></p>
 
-        <p>
-            Client: LG Soft India Pvt. Ltd.,
-            Bangalore
-        </p>
+        <p>Client: LG Soft India Pvt. Ltd., Bangalore</p>
 
-        <p>
-            Jan 2023 – Mar 2026
-        </p>
+        <p><strong>January 2023 – March 2026</strong></p>
 
         <ul>
 
@@ -558,19 +684,11 @@
 
     <div class="job">
 
-        <h3>
-            Frontend Developer
-        </h3>
+        <h3>Frontend Developer</h3>
 
-        <p>
-            <strong>
-                Appadd India Pvt. Ltd., Bangalore
-            </strong>
-        </p>
+        <p><strong>Appadd India Pvt. Ltd., Bangalore</strong></p>
 
-        <p>
-            Apr 2022 – Dec 2022
-        </p>
+        <p><strong>April 2022 – December 2022</strong></p>
 
         <ul>
 
@@ -601,19 +719,11 @@
 
     <div class="job">
 
-        <h3>
-            Junior Frontend Developer
-        </h3>
+        <h3>Junior Frontend Developer</h3>
 
-        <p>
-            <strong>
-                Innappsys Technologies, Bangalore
-            </strong>
-        </p>
+        <p><strong>Innappsys Technologies, Bangalore</strong></p>
 
-        <p>
-            Aug 2020 – Mar 2022
-        </p>
+        <p><strong>August 2020 – March 2022</strong></p>
 
         <ul>
 
@@ -648,25 +758,24 @@
 
 <section id="education">
 
-    <h2>
-        <i class="fa-solid fa-graduation-cap"></i>
-        Education
-    </h2>
+    <div class="section-heading">
+        <span class="section-kicker">Academic background</span>
+        <h2>
+            <i class="fa-solid fa-graduation-cap"></i>
+            Education
+        </h2>
+    </div>
 
     <div class="education-box">
 
         <h3>
-            Bachelor of Engineering –
-            Computer Science and Engineering
+            Bachelor of Engineering – Computer Science and Engineering
         </h3>
 
-        <p>
-            ACS College of Engineering, Bangalore
-        </p>
+        <p>ACS College of Engineering, Bangalore</p>
 
         <p>
-            Visvesvaraya Technological University (VTU),
-            Belgaum
+            Visvesvaraya Technological University (VTU), Belgaum
         </p>
 
     </div>
@@ -678,147 +787,132 @@
 
 <section id="contact">
 
-    <h2>
-        <i class="fa-solid fa-envelope"></i>
-        Contact Me
-    </h2>
+    <div class="section-heading">
+        <span class="section-kicker">Let's connect</span>
+        <h2>
+            <i class="fa-solid fa-envelope"></i>
+            Contact Me
+        </h2>
+        <p class="section-intro">
+            Interested in working together or discussing an opportunity?
+            Feel free to get in touch.
+        </p>
+    </div>
+
+    <div class="contact-layout">
+
+        <div class="contact-info">
+
+            <h3>Get in touch</h3>
+
+            <p>
+                I'm open to discussing Python full-stack development
+                opportunities and web development projects.
+            </p>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <strong>Email</strong><br>
+                    <a href="mailto:harshithamraj1596@gmail.com">
+                        harshithamraj1596@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <strong>Phone</strong><br>
+                    <a href="tel:+919886099515">
+                        +91 9886099515
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <strong>Location</strong><br>
+                    Bangalore, Karnataka, India
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                    <strong>LinkedIn</strong><br>
+                    <a href="https://www.linkedin.com/in/harshitha-muniraju-b2527017b"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                    <strong>GitHub</strong><br>
+                    <a href="https://github.com/harshithamraj1596"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        github.com/harshithamraj1596
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-globe"></i>
+                <div>
+                    <strong>Portfolio</strong><br>
+                    <a href="https://harshitha1596.github.io/My-Portfolio/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Portfolio
+                    </a>
+                </div>
+            </div>
+
+        </div>
 
 
-    <!-- EMAIL -->
+        <!-- NOTE: GitHub Pages cannot process PHP forms.
+             Connect Formspree or another form service before using this form. -->
 
-    <p>
+        <div class="contact-form">
 
-        <strong>
-            Email:
-        </strong>
+            <h3>Send a message</h3>
 
-        <a href="mailto:harshithamraj1596@gmail.com">
+            <form action="https://formspree.io/f/YOUR_FORM_ID"
+                  method="POST">
 
-            harshithamraj1596@gmail.com
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required>
 
-        </a>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required>
 
-    </p>
+                <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required></textarea>
 
+                <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Message
+                </button>
 
-    <!-- PHONE -->
+            </form>
 
-    <p>
-
-        <strong>
-            Phone:
-        </strong>
-
-        <a href="tel:+919886099515">
-
-            +91 9886099515
-
-        </a>
-
-    </p>
-
-
-    <!-- LOCATION -->
-
-    <p>
-
-        <strong>
-            Location:
-        </strong>
-
-        Bangalore, Karnataka, India
-
-    </p>
-
-
-    <!-- LINKEDIN -->
-
-    <p>
-
-        <strong>
-            LinkedIn:
-        </strong>
-
-        <a href="https://www.linkedin.com/in/harshitha-muniraju-b2527017b"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            linkedin.com/in/harshitha-muniraju-b2527017b
-
-        </a>
-
-    </p>
-
-
-    <!-- GITHUB -->
-
-    <p>
-
-        <strong>
-            GitHub:
-        </strong>
-
-        <a href="https://github.com/harshithamraj1596"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            github.com/harshithamraj1596
-
-        </a>
-
-    </p>
-
-
-    <!-- PORTFOLIO -->
-
-    <p>
-
-        <strong>
-            Portfolio:
-        </strong>
-
-        <a href="https://harshitha1596.github.io/My-Portfolio/"
-           target="_blank"
-           rel="noopener noreferrer">
-
-            harshitha1596.github.io/My-Portfolio
-
-        </a>
-
-    </p>
-
-
-    <!-- CONTACT FORM -->
-
-    <div class="contact-form">
-
-        <form action="contact.php" method="POST">
-
-            <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                required>
-
-            <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required>
-
-            <textarea
-                name="message"
-                rows="5"
-                placeholder="Your Message"
-                required></textarea>
-
-            <button type="submit">
-
-                Send Message
-
-            </button>
-
-        </form>
+        </div>
 
     </div>
 
@@ -830,16 +924,12 @@
 <footer>
 
     <p>
-
         © 2026 Harshitha M |
-        Python Full Stack Developer |
+        <span>Python Full Stack Developer</span> |
         All Rights Reserved.
-
     </p>
 
 </footer>
 
-
 </body>
-
 </html>

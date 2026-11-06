@@ -731,6 +731,140 @@ img {
 
 
 /* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form-container {
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 35px 40px;
+    background: #ffffff;
+    border: 1px solid #e7e9f1;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(30, 45, 90, 0.06);
+}
+
+.contact-form-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form-heading h3 {
+    font-size: 27px;
+    color: #24345e;
+    margin-bottom: 8px;
+}
+
+.contact-form-heading p {
+    color: #697386;
+    font-size: 17px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: #26365f;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #252b3a;
+    background: #fafbff;
+    border: 1px solid #dce1ef;
+    border-radius: 7px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.form-group input {
+    height: 48px;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #5366d8;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(83, 102, 216, 0.12);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #929bad;
+}
+
+.form-group:last-of-type {
+    grid-column: 1 / -1;
+}
+
+.btn-primary {
+    grid-column: 1 / -1;
+    justify-self: center;
+    min-width: 180px;
+    padding: 13px 28px;
+    background: #5366d8;
+    color: #ffffff;
+    border: 2px solid #5366d8;
+    border-radius: 7px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #3549b5;
+    border-color: #3549b5;
+    transform: translateY(-3px);
+}
+
+/* CONTACT FORM - MOBILE */
+
+@media (max-width: 550px) {
+
+    .contact-form-container {
+        padding: 25px 18px;
+        margin-top: 35px;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .form-group:last-of-type,
+    .btn-primary {
+        grid-column: 1;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+}
+
+/* =========================
    FOOTER
 ========================= */
 
